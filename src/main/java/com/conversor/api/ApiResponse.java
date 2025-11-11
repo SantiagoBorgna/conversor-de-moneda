@@ -61,16 +61,4 @@ public class ApiResponse {
     public void setConversionResult(double conversionResult) {
         this.conversionResult = conversionResult;
     }
-
-    /*// Un método toString() es útil para depurar
-    @Override
-    public String toString() {
-        return "ApiResponse{" +
-                "result='" + result + '\'' +
-                ", baseCode='" + baseCode + '\'' +
-                ", targetCode='" + targetCode + '\'' +
-                ", conversionRate=" + conversionRate +
-                ", conversionResult=" + conversionResult +
-                '}';
-    }*/
 }
